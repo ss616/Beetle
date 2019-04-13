@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-scripts": "2.1.8"
+    "firebase": "^5.9.0",
+    "react-router-dom": "^4.4.0",
+    "react-scripts": "2.1.8",
+    "recompose": "^0.30.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +22,23 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "json-loader": "^0.5.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "web3": "^0.20.0",
+    "webpack": "4.28.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
